@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 
 .row {
-  height: 765px;
+  height: 880px;
   width: 765px;
   background: url("greenblurr.jpg");
 }
@@ -13,28 +13,21 @@
   background: url("img_bg.jpg");
   background-size: cover;
 }
-.description_base {
-  height: 100%
-  background-color: white;
-}
-#profile_pic {
-  border-radius: 100%;
-  border: 2px solid #34459e;
-  box-shadow: 8 2px 2px black;
-  box-sizing: border-box;
-  position: absolute;
-  margin-top: 85px;
-  margin-left: 30px;
-}
 #name {
   color: transparent;
   text-shadow: 0 0 5px rgba(0,0,0,0.5);
   position: absolute;
   font-family: verdana;
-  margin-left: 200px;
+  margin-left: 15px;
   margin-top: auto;
   color: #ecf0f1;
   font-family: 'Song Myung', serif;
+}
+#address {
+  position: absolute;
+  padding-top: 35px;
+  padding-left: 45px;
+  font-family: 'Oswald', serif;
 }
 #contact_number {
   color: transparent;
@@ -42,41 +35,52 @@
   position: absolute;
   font-family: verdana;
   margin-left: 570px;
-  margin-top: 15px;
+  margin-top: 1px;
   color: #ecf0f1;
   font-family: 'Song Myung', serif;
 }
-#profession {
+#favorite_activities {
   position: absolute;
-  margin-left: 200px;
-  font-weight: bold;
-  margin-top: 45px;
-  font-family: 'Josefin Sans', sans-serif;
+  padding-left: 45px;
+  padding-top: 150px;
+  font-family: 'Oswald';
 }
-#programing_language {
-  padding-top: 85px;
-  padding-left: 30px;
-  font-family: 'Roboto Slab', serif;
+#favorite_activities_ul {
+  font-size: 14;
+  font-family: 'Oswald';
 }
-#project_experience {
+#favorite_activities_ul2 {
   position: absolute;
-  margin-left: 360px;
-  margin-top: 100px;
-  font-family: 'Roboto Slab', serif;
+  padding-left: 160px;
+  padding-top: 30px;
+  font-size: 14;
+  font-family: 'Oswald';
 }
-#project_experience_ul {
+#favorite_thingstodo {
   position: absolute;
-  margin-left: 320px;
-  margin-top: 140px;
-  font-family: 'Roboto Slab', serif;
+  padding-left: 45px;
+  padding-top: 285px;
+  font-family: 'Oswald';
 }
-#skills {
-  padding-left: 30px;
-  font-family: 'Roboto Slab', serif;
+#favorite_thingstodo_ul {
+  font-size: 14;
+  font-family: 'Oswald';.
 }
-#school {
+#favorite_thingstodo_p{
+  position: absolute;
+  padding-left: 87px;
+  font-size: 14;
+  font-family: 'Oswald';
+}
+#Others {
+  position: absolute;
+  padding-left: 45px;
+  padding-top: 460px;
+  font-family: 'Oswald';
+}
+#lyrics {
+  font-size: 14;
   padding-left: 30px;
-  font-family: 'Roboto Slab', serif;
 }
 #edit {
   color: white;
@@ -94,21 +98,4 @@
   margin-top: 117px;
   align-items: center;
   border-radius: 100%;
-}
-.social {
-  position: absolute;
-  list-style:
-  display: block;
-}
-.social li {
-  display: inline;
-  color: white;
-  padding-right: 30px;
-}
-.social li a {
-  color: white;
-}
-.social li a:hover{
-  color: blue;
-  transform: scale(1.1.5);
 }
